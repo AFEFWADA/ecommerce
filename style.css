@@ -26,7 +26,7 @@ nav {
 }
 nav ul {
     float: right;
-    margin-right: 190px;
+    margin-right: 20px;
 }
 nav ul li {
     display: inline-block;
@@ -57,27 +57,7 @@ a .active, a:hover {
 #check {
     display: none ;
 }
-.welcomesection {
-    display: flex ;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    justify-content: center;
-    /*bech thaabet lktiba louta*/
-    height: calc(100vh - 40px - 60px);
-    
-}
-.welcomesection h1 {
-    font-size: 3vw;
-    margin-bottom: 1rem;
-    color: rgb(126, 185, 185);
-    text-align: center;
-}
-.welcomesection p {
-    text-align: center;
-    font-size: 1.3vw;
 
-}
 
 /*responsive design */
 @media (max-width:952px){
@@ -692,7 +672,7 @@ footer a:hover {
         display: flex;
         flex-direction: column;
     }
-    #prodetails .single-pro-image{
+    #prodetails .single-pro-img{
         width: 100%;
         margin-right: 0px;
     }
