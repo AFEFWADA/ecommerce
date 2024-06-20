@@ -49,7 +49,43 @@ const product = [
        image: 'img/Galaxy-S9plus.jpg',
        title: 'samsung s9 plus',
        price: 900,
-   }
+   },
+   {
+    id: 4,
+    image: 'img/s23.jpg',
+    title: 'samsung s23 ',
+    price: 3900,
+},
+{
+    id: 5,
+    image: 'img/IPHONE 12pro max.jpg',
+    title: 'iphone 12 pro',
+    price: 1900,
+},
+{
+    id: 6,
+    image: 'img/Samsung-S10-5G-256GB.jpg',
+    title: 'samsung s10 5g',
+    price: 700,
+},
+{
+    id: 7,
+    image: 'img/s24ultra.jpg',
+    title: 'samsung s24 ultra',
+    price: 1200,
+},
+{
+    id: 8,
+    image: 'img/huawei p30 pro.jpg',
+    title: 'huawei p30 pro',
+    price: 2900,
+},
+{
+    id: 9,
+    image: 'img/huawei p40-9.jpeg',
+    title: 'huwaei p40 ',
+    price: 1900,
+}
 ];
 const categories = [...new Set(product.map((item)=>
    {return item}))]
